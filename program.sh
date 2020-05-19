@@ -1,9 +1,9 @@
 echo "Hello! Let's find out more about you."
 
 read -p 'What is your name: ' name
-read -p 'What is your favorite food: ' food
-
 echo "Hi $name! My name is $0."
+
+read -p 'What is your favorite food: ' food
 echo "I like $food, too!"
 
 if [ "$food" == "pizza" ]; then
@@ -25,3 +25,7 @@ fi
 read -p "What's your favorite TV show: " tvshow
 
 echo "$tvshow, huh? Not bad, my favorite is Lost in Space."
+
+read -p "Last question, what is your _least_ favorite food: " leastfood
+
+echo "Eeww, $leastfood!? Gross!"
