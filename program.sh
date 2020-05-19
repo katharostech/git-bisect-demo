@@ -21,3 +21,7 @@ elif [ "$pet" == "dogs" ]; then
 else
     echo "Well, that wasn't really an option, but I gess $pet are OK, too."
 fi
+
+read -p "What's your favorite TV show: " tvshow
+
+echo "$tvshow, huh? Not bad, my favorite is Lost in Space."
